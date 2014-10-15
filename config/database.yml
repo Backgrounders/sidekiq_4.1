@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: background_email_production
-  username: background_email
-  password: <%= ENV['BACKGROUND_EMAIL_DATABASE_PASSWORD'] %>
