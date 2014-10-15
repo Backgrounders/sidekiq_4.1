@@ -1,0 +1,21 @@
+<h1>Contact</h1>
+
+<%= form_tag '/mail' do %>
+	<div>
+		<%= label_tag :name %><br>
+		<%= text_field_tag :name %>
+	</div>
+	
+	<div>
+		<%= label_tag :email %><br>
+		<%= text_field_tag :email %>
+	</div>
+	
+	<div>
+		<%= label_tag :message %><br>
+		<%= text_area_tag :message %>
+	</div>
+	
+	<%= submit_tag %>
+	
+<% end %>
